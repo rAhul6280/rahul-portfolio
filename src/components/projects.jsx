@@ -22,7 +22,7 @@ function Projects({projectThumbnail,projectTitle,projectDescription,projectLink,
       <div className='flex flex-col md:flex-row gap-4 items-center  rounded-lg p-2 '>
         
           {/* img div */}
-          <img className='w-60 md:w-40 h-full  object-cover rounded-md' src={projectThumbnail} alt={`${projectTitle} thumbnail`} />
+          <img className='w-60 md:w-40 h-full  object-cover rounded-md' src={projectThumbnail} alt={`${projectTitle} thumbnail`} loading="lazy" />
         
             
           {/* description div */}
