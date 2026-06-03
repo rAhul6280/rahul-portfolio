@@ -18,7 +18,7 @@ function App() {
     projectThumbnail: auth,
     projectTitle: "Auth-project",
     projectDescription: "A custom auth system using Express and MongoDB with access refresh tokens It uses Axios interceptors for automatic token refresh and session handling.",
-    projectLink: "https://auth-frontend-fawn.vercel.app/",
+    projectLink: "https://auth-frontend-pied-six.vercel.app/",
     sourceCodeLink: "https://github.com/rAhul6280/ImgProject" 
   },
   {
